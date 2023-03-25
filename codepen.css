@@ -12,8 +12,9 @@ body {
 }
 .container {
   width: 100%;
-  height: 300%;
+  height: 350%;
   background-color: #85FFBD;
+  padding-top: 50px;
   
 /* background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%); */
 background-image: linear-gradient(45deg, #ff00e6 0%, #00a2ff 100%);
@@ -21,7 +22,7 @@ background-image: linear-gradient(45deg, #ff00e6 0%, #00a2ff 100%);
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: start;
   animation: cont 10000ms ease-in-out infinite alternate;
 }
 @keyframes cont {
