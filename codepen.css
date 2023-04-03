@@ -18,7 +18,8 @@ body {
   padding-top: 50px;
   
 /* background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%); */
-background-image: linear-gradient(45deg, #ff00e6 0%, #00a2ff 100%);
+/* background-image: linear-gradient(45deg, #ff00e6 0%, #00a2ff 100%); */
+background-image: linear-gradient(0deg, #ff00c8 10%, #0064e7 50%,#000000 80%,#000000 100%);
   background-size: 200%;
   display: flex;
   flex-direction: column;
@@ -90,7 +91,7 @@ background-image: linear-gradient(45deg, #fe00e0 0%, #e2db1a 100%);
 }
 .portfolio-card-1-col-2 p {
   text-align: justify;
-  font-size: 15px;
+  font-size: 14px;
   line-height: 25px;
 }
 .portfolio-card-2 {
