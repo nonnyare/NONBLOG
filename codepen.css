@@ -20,7 +20,7 @@ body {
 /* background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%); */
 /* background-image: linear-gradient(45deg, #ff00e6 0%, #00a2ff 100%); */
 /* background-image: linear-gradient(0deg, #ff00c8 5%, #0064e7 30%,#000000 60%,#000000 80%); */
-background-image: linear-gradient(0deg, rgb(199, 223, 255) 0%, rgb(199, 223, 255) 80%);
+background-image: linear-gradient(0deg, rgb(252, 216, 238) 0%, rgb(170, 207, 255) 100%);
   background-size: auto;
   display: flex;
   flex-direction: column;
@@ -230,7 +230,7 @@ background-image: linear-gradient(0deg, rgb(199, 223, 255) 0%, rgb(199, 223, 255
 	/* border-radius:50%; */
     border-radius:5%;
 	margin-bottom: 20px;
-	box-shadow: #f64f59 0px 0px 0px 3px, #c471ed 0px 0px 0px 6px, #c471ed 0px 0px 0px 9px;
+	box-shadow: #522b40 0px 0px 0px 3px, #81004b 0px 0px 0px 6px, #fa70e8 0px 0px 0px 9px;
 }
 
 .portfolio-card-project h2 {
