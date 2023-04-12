@@ -19,8 +19,7 @@ body {
   
 /* background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%); */
 /* background-image: linear-gradient(45deg, #ff00e6 0%, #00a2ff 100%); */
-/* background-image: linear-gradient(0deg, #ff00c8 5%, #0064e7 30%,#000000 60%,#000000 80%); */
-background-image: linear-gradient(0deg, rgb(199, 223, 255) 0%, rgb(199, 223, 255) 80%);
+background-image: linear-gradient(0deg, #ff00c8 5%, #0064e7 30%,#000000 60%,#000000 80%);
   background-size: auto;
   display: flex;
   flex-direction: column;
@@ -45,14 +44,14 @@ background-image: linear-gradient(0deg, rgb(199, 223, 255) 0%, rgb(199, 223, 255
   max-height: 50%;
   background-color: #02e46a;
 /* background-image: linear-gradient(45deg, #02e46a 0%, #e2db1a 100%); */
-  background-image: linear-gradient(45deg, #4e77e7 0%, #54db9c 100%);
+background-image: linear-gradient(45deg, #fe00e0 0%, #e2db1a 100%);
 
 
 
   border-radius: 0.5em;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   padding: 1em;
-  /* border: 2px solid #ff7226; */
+  border: 2px solid #ff7226;
   /* border: 2px solid #02e46a; */
   color: rgb(0, 0, 0);
   
@@ -87,10 +86,6 @@ background-image: linear-gradient(0deg, rgb(199, 223, 255) 0%, rgb(199, 223, 255
 .portfolio-card-1-col-2 {
   width: 50%;
 }
-.portfolio-card-1-col h1 {
-  font-size: 20px;
-}
-
 .portfolio-card-1-col-2 h2 {
   font-size: medium;
 }
@@ -214,14 +209,13 @@ background-image: linear-gradient(0deg, rgb(199, 223, 255) 0%, rgb(199, 223, 255
 }
 
 .portfolio-card-project {
-	/* background-color: #092f5a; */
-  background-image: linear-gradient(45deg, #bd4166 0%, #e17eff 100%);
+	background-color: #030128;
 	padding: 20px;
 	text-align: center;
 	/* border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%; */
     border-radius: 8%;
 	margin:20px;
-	box-shadow: rgba(163, 61, 141, 0.4) 0px 5px, rgba(163, 61, 141, 0.3) 0px 10px, rgba(163, 61, 141, 0.2) 0px 15px, rgba(163, 61, 141, 0.1) 0px 20px, rgba(163, 61, 141, 0.05) 0px 25px;
+	box-shadow: rgba(0, 0, 0, 0.4) 0px 5px, rgba(0, 0, 0, 0.3) 0px 10px, rgba(0, 0, 0, 0.2) 0px 15px, rgba(0, 0, 0, 0.1) 0px 20px, rgba(0, 0, 0, 0.05) 0px 25px;
 }
 .portfolio-card-project img {
 	max-width: 100%;
@@ -237,7 +231,6 @@ background-image: linear-gradient(0deg, rgb(199, 223, 255) 0%, rgb(199, 223, 255
 	font-size: 24px;
 	margin-bottom: 10px;
 	color:aliceblue;
-  
 }
 
 .portfolio-card-project p {
@@ -245,13 +238,7 @@ background-image: linear-gradient(0deg, rgb(199, 223, 255) 0%, rgb(199, 223, 255
 	margin-bottom: 20px;
 	color:aliceblue;
 	padding: 30px;
-  text-decoration: none;
 }
-
-.portfolio-container-project a {
-  text-decoration: none;
-}
-
 .egg-project {
 	/* Modify size here: */
 	--size: 50px;
@@ -263,8 +250,6 @@ background-image: linear-gradient(0deg, rgb(199, 223, 255) 0%, rgb(199, 223, 255
 	/* border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%; */
     border-radius: 5%;
   }
-
-
   /* .credit-project a {
 	text-decoration: none;
 	color: #fff;
